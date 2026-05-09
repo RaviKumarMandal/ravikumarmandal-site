@@ -7,7 +7,7 @@ export const homePageData = {
   hero: {
     status: 'Available for thoughtful product conversations',
     name: 'Ravi Kumar Mandal',
-    role: 'Product Engineer',
+    role: 'Engineerrrrrrrrrrrrrrr',
     headline:
       'Building product systems that stay clear under scale, complexity, and operational pressure.',
     intro:
@@ -172,7 +172,7 @@ export const homePageData = {
     },
     secondary: {
       label: 'Email directly',
-      href: 'mailto:hello@ravikumarmandal.com',
+      href: 'mailto:ravimandalindian@gmail.com',
     },
   },
 };
