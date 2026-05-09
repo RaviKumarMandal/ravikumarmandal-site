@@ -7,7 +7,7 @@ export const homePageData = {
   hero: {
     status: 'Available for thoughtful product conversations',
     name: 'Ravi Kumar Mandal',
-    role: 'Engineerrrrrrrrrrrrrrr',
+    role: 'Product Engineer',
     headline:
       'Building product systems that stay clear under scale, complexity, and operational pressure.',
     intro:
