@@ -1,0 +1,19 @@
+.container {
+  width: min(100% - 2rem, var(--container-width));
+  margin: 0 auto;
+}
+
+.wide {
+  width: min(100% - 2rem, var(--container-width-wide));
+}
+
+@media (min-width: 768px) {
+  .container,
+  .wide {
+    width: min(100% - 3rem, var(--container-width));
+  }
+
+  .wide {
+    width: min(100% - 3rem, var(--container-width-wide));
+  }
+}

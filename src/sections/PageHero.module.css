@@ -1,0 +1,25 @@
+.hero {
+  display: grid;
+  gap: 1.5rem;
+  padding: clamp(2rem, 1.3rem + 2vw, 3.25rem) 0 3rem;
+}
+
+.copy {
+  max-width: 52rem;
+}
+
+.copy h1 {
+  margin: 1rem 0 1rem;
+}
+
+.copy p {
+  max-width: 44rem;
+  font-size: clamp(1rem, 0.94rem + 0.35vw, 1.15rem);
+  color: var(--color-text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}

@@ -1,0 +1,62 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.header {
+  max-width: 40rem;
+  margin-bottom: 1.8rem;
+}
+
+.label {
+  color: var(--color-text-soft);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin-top: 0.95rem;
+}
+
+.intro {
+  margin-top: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.point {
+  display: grid;
+  gap: 0.7rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.point:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.point span {
+  color: var(--color-accent-warm);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.point p {
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 0.97rem + 0.24vw, 1.18rem);
+  line-height: 1.35;
+}
+
+@media (min-width: 900px) {
+  .point {
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    gap: 1.2rem;
+    align-items: start;
+  }
+}

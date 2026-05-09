@@ -1,0 +1,66 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.shell {
+  display: grid;
+  gap: 1.4rem;
+  padding: 1.35rem 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.copy {
+  max-width: 40rem;
+}
+
+.label {
+  color: var(--color-text-soft);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.copy h2 {
+  margin-top: 0.95rem;
+}
+
+.intro {
+  margin-top: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.links {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color 180ms ease, transform 180ms ease;
+}
+
+.link:hover {
+  color: var(--color-accent-soft);
+  transform: translateX(2px);
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+@media (min-width: 900px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem);
+    gap: 2.4rem;
+    align-items: end;
+  }
+}

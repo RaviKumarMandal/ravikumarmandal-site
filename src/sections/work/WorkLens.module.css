@@ -1,0 +1,21 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.block {
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.statement {
+  font-size: clamp(1.45rem, 1.22rem + 0.85vw, 2.2rem);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.note {
+  max-width: 40rem;
+  margin: 1rem auto 0;
+  color: var(--color-text-muted);
+}

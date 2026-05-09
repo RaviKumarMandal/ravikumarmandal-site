@@ -1,0 +1,40 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.layout {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.header {
+  max-width: 18rem;
+}
+
+.label {
+  color: var(--color-text-soft);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin-top: 0.95rem;
+}
+
+.body {
+  max-width: 48rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.body p {
+  color: var(--color-text-muted);
+}
+
+@media (min-width: 980px) {
+  .layout {
+    grid-template-columns: minmax(14rem, 18rem) minmax(0, 1fr);
+    gap: 2.2rem;
+  }
+}

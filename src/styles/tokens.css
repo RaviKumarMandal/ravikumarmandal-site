@@ -1,0 +1,39 @@
+:root {
+  color-scheme: dark;
+
+  --color-background: #04050a;
+  --color-background-elevated: #090d16;
+  --color-surface: rgba(11, 16, 29, 0.88);
+  --color-surface-raised: rgba(16, 22, 38, 0.96);
+  --color-surface-soft: rgba(14, 20, 34, 0.72);
+  --color-border: rgba(214, 224, 255, 0.09);
+  --color-border-strong: rgba(214, 224, 255, 0.18);
+  --color-heading: #f4f7ff;
+  --color-text: #d8deee;
+  --color-text-muted: #98a4c0;
+  --color-text-soft: #76829d;
+  --color-text-dim: #5f6982;
+  --color-ink: #08111d;
+  --color-accent: #8da2ff;
+  --color-accent-strong: #6f84ff;
+  --color-accent-soft: #b7defe;
+  --color-accent-warm: #d8b687;
+
+  --font-display: "Sora", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body: "Manrope", "Inter", "Segoe UI", sans-serif;
+
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-2xl: 2.5rem;
+  --container-width: 76rem;
+  --container-width-wide: 86rem;
+  --section-space: clamp(4.5rem, 3.6rem + 2vw, 7rem);
+
+  --shadow-card:
+    0 24px 60px rgba(0, 0, 0, 0.34),
+    inset 0 1px 0 rgba(255, 255, 255, 0.045);
+  --shadow-soft:
+    0 18px 40px rgba(0, 0, 0, 0.26),
+    inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  --shadow-glow: 0 0 0 1px rgba(141, 162, 255, 0.1), 0 18px 40px rgba(53, 70, 160, 0.18);
+}

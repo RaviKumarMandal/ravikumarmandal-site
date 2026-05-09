@@ -1,0 +1,36 @@
+.section {
+  padding: 1.7rem 0 calc(var(--section-space) - 1rem);
+}
+
+.shell {
+  max-width: 52rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.label {
+  color: var(--color-text-soft);
+  font-size: 0.76rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 0.95rem;
+  max-width: 16ch;
+  font-size: clamp(2.35rem, 1.95rem + 1.65vw, 4rem);
+  line-height: 1.04;
+}
+
+.intro {
+  max-width: 44rem;
+  margin-top: 1.05rem;
+  color: var(--color-text);
+  font-size: clamp(1rem, 0.96rem + 0.26vw, 1.1rem);
+}
+
+.supporting {
+  max-width: 38rem;
+  margin-top: 0.9rem;
+  color: var(--color-text-muted);
+}

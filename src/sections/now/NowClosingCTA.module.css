@@ -1,0 +1,63 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.shell {
+  display: grid;
+  gap: 1.4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.copy {
+  max-width: 40rem;
+}
+
+.label {
+  color: var(--color-text-soft);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.copy h2 {
+  margin-top: 0.95rem;
+}
+
+.intro {
+  margin-top: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.links {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.link {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.2rem 0;
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  transition: color 180ms ease, border-color 180ms ease;
+}
+
+.link:hover {
+  color: var(--color-accent-soft);
+  border-color: var(--color-accent-soft);
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+@media (min-width: 900px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr) minmax(14rem, 18rem);
+    gap: 2rem;
+    align-items: end;
+  }
+}

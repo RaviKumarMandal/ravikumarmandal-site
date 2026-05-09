@@ -1,0 +1,46 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.shell {
+  display: grid;
+  gap: 1.4rem;
+  padding: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  background:
+    linear-gradient(135deg, rgba(141, 162, 255, 0.09), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015)),
+    rgba(9, 13, 23, 0.94);
+  box-shadow: var(--shadow-card);
+}
+
+.eyebrow {
+  color: var(--color-text-soft);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.copy h2 {
+  margin: 0.9rem 0 0.85rem;
+  max-width: 18ch;
+}
+
+.intro {
+  max-width: 38rem;
+  color: var(--color-text-muted);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+@media (min-width: 900px) {
+  .shell {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+  }
+}

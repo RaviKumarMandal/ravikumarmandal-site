@@ -1,0 +1,30 @@
+.intro {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.intro h2 {
+  margin-top: 0.95rem;
+  max-width: 32rem;
+}
+
+.intro p {
+  max-width: 38rem;
+  color: var(--color-text-muted);
+}
+
+.split {
+  align-items: end;
+}
+
+@media (min-width: 900px) {
+  .split {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 2rem;
+  }
+
+  .split p {
+    margin-left: auto;
+  }
+}

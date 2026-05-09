@@ -1,0 +1,59 @@
+.section {
+  padding: var(--section-space) 0 0;
+}
+
+.header {
+  max-width: 42rem;
+  margin-bottom: 1.8rem;
+}
+
+.label {
+  color: var(--color-text-soft);
+  font-size: 0.74rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin-top: 0.95rem;
+}
+
+.intro {
+  margin-top: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.pathList {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.path {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.path:last-child {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cue {
+  color: var(--color-text-soft);
+}
+
+.recommendation {
+  color: var(--color-heading);
+  font-family: var(--font-display);
+  font-size: clamp(1.02rem, 0.98rem + 0.24vw, 1.18rem);
+  line-height: 1.35;
+}
+
+@media (min-width: 900px) {
+  .path {
+    grid-template-columns: minmax(14rem, 18rem) minmax(0, 1fr);
+    gap: 1.4rem;
+    align-items: start;
+  }
+}

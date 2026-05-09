@@ -1,0 +1,10 @@
+.page {
+  position: relative;
+  padding: 2rem 0 5rem;
+}
+
+@media (min-width: 768px) {
+  .page {
+    padding: 2.5rem 0 6rem;
+  }
+}
